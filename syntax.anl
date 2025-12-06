@@ -1,0 +1,6 @@
+window("Test", 600, 500);
+main loop():
+    bg[dark_grey];
+    draw_rect(100, 100, 64, 64, red);
+    wait(0.016);
+render(loop());
